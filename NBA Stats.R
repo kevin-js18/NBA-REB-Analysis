@@ -23,7 +23,7 @@ typeof(nba_reb_data$FT_PCT)
 
 convert_from_factor(nba_col_names)
 
-# plot(as.numeric(as.character(nba_reb_df$REB)), as.numeric(as.character(nba_reb_df$FT_PCT)))
+plot(as.numeric(as.character(nba_reb_df$REB)), as.numeric(as.character(nba_reb_df$FT_PCT)))
 
 nba_reb_tbl <- as.tbl(nba_reb_df)
 
