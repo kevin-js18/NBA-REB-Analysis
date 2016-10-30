@@ -23,7 +23,11 @@ typeof(nba_reb_data$FT_PCT)
 
 convert_from_factor(nba_col_names)
 
+<<<<<<< HEAD
 plot(as.numeric(as.character(nba_reb_df$REB)), as.numeric(as.character(nba_reb_df$FT_PCT)), main = "Rebounds per Game vs. Freethrow Percentage for Top 45 Rebounders", sub = "2015 - 2016 Regular Season", xlab = "Rebounds per Game", ylab = "Freethrow Percentage")
+=======
+plot(as.numeric(as.character(nba_reb_df$REB)), as.numeric(as.character(nba_reb_df$FT_PCT)))
+>>>>>>> origin/master
 
 nba_reb_tbl <- as.tbl(nba_reb_df)
 
